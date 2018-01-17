@@ -1,5 +1,5 @@
 {
-    "name": "mikealmond/hq",
+    "name": "mikealmond/hq-trivia-assistant",
     "type": "project",
     "require": {
         "ratchet/pawl": "^0.3.1",
