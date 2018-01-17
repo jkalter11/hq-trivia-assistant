@@ -10,11 +10,12 @@ A small bot to help aide you in picking the right answer in the HQ app trivia ga
 ``` bash
 $ git clone https://github.com/mikealmond/hq-trivia-assistant .
 $ cd hq-trivia-assistant
+$ composer install
 $ cp .env.dist .env
 ```
 After you've created the `.env` file, fill in your HQ user ID and bearer token. You can find your ID and token by sniffing the web traffic from your phone using a tool such as [Charles Proxy](https://www.charlesproxy.com/).
 
-
+Note: installation assumes that you have installed [Composer](https://getcomposer.org/doc/00-intro.md#globally) already.
 
 ## Usage
 
